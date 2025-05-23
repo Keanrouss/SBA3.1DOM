@@ -13,6 +13,7 @@ if (Password ===Uryuko){
     console.log(validation)
 }else (Passworld===false)
     window.alert ("Invalid Username and/or Password, try again")
+    window.location.reload()
 }
 
 )
