@@ -1,3 +1,22 @@
+
+let form = document.querySelectorAll(".login-in")
+let information = document.querySelector(".container")
+
+const node = document.getElementById("clone") // suggest use format
+
+//validate the form
+form.addEventListener("submit",(e) =>{
+    Event.preventDefault();
+console.log(container)
+let validation = form.elements["Password"].value;
+if (Password ===Uryuko){
+    console.log(validation)
+}else (Passworld===false)
+    window.alert ("Invalid Username and/or Password, try again")
+}
+
+)
+
 //selecting all of the buttons elements
 let CalcbuttonsEl = document.querySelectorAll("button");
 //selecting inputs by their ID/ narrowing down "output" bar to show result
