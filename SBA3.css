@@ -1,0 +1,33 @@
+.Calculator{
+    background-color: rgb(144, 144, 206);
+    border: solid 2px rgb(236, 164, 112);
+    max-width: 400px;
+    padding: 25px;
+     margin: 0;
+     border-radius: 10px;
+     margin-top: 50px;
+}
+#Output{
+    font-size: 26px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0;
+
+}
+.Calcbuttons{
+ display: grid;
+ grid-template-columns:  repeat(4, 1fr);
+ grid-gap: 10px;
+ margin-top: 15px;
+}
+button{
+    font-size: 26px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(122, 83, 83);
+}
