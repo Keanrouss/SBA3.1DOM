@@ -1,22 +1,39 @@
-
-let form = document.querySelectorAll(".login-in")
+let form = document.querySelectorAll(".form")
 let information = document.querySelector(".container")
 
 const node = document.getElementById("clone") // suggest use format
 
-//validate the form
-form.addEventListener("submit",(e) =>{
-    Event.preventDefault();
-console.log(container)
-let validation = form.elements["Password"].value;
-if (Password ===Uryuko){
-    console.log(validation)
-}else (Passworld===false)
-    window.alert ("Invalid Username and/or Password, try again")
-    window.location.reload()
-}
+//validate the form/password
+// form.addEventListener("submit",(e) =>{
+    // Event.preventDefault();
+// console.log(container)
+
+//let validation = form.elements["Password"].value;
+//if (Password ===Uryuko){
+    //console.log(validation)
+//}else (Passworld===false)
+function validatePassword() { //if password area is left empty, alert
+    const Password = document.querySelectorAll("Password").value}
+    // if (Password.length < 12) {
+    //     window.alert("Password is weak, try again!")
+    //     return false;  
+    //   if (Password =="") {
+        // return false;
+    // }
+form.addEventListener('submit', function(event) {
+    event.preventDefault;
+console.log(information)
+if (Password =="") {
+        return false;
+    }
+    }
 
 )
+    
+
+
+
+
 
 //selecting all of the buttons elements
 let CalcbuttonsEl = document.querySelectorAll("button");
