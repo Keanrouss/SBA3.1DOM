@@ -20,7 +20,7 @@ function validatePassword() { //if password area is left empty, alert
     //   if (Password =="") {
         // return false;
     // }
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function(event) { //form.addEventListener giving issues. To discuss with Oussama
     event.preventDefault;
 console.log(information)
 if (Password =="") {
